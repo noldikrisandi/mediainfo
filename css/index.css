@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Coming Soon", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+/* kelas sendiri */
+.bold {
+  font-weight: bold;
+}
+
+.abu-abu {
+  color: rgb(145, 144, 144);
+}
+
+.blok {
+  display: block;
+}
+
+/* end kelas sendiri */
+
+.container {
+  width: 1100px;
+  height: 1500px;
+  margin: 10px auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .main {
+  border-right: solid salmon 1px;
+  width: 800px;
+}
+
+.container .main h2 {
+  margin: 20px 20px 20px 0;
+  font-weight: bold;
+  color: black;
+}
+
+.container .main h6 {
+  margin: 13px 0 20px 0;
+}
+
+.container .main p i {
+  margin: auto 5px;
+  font-size: 20px;
+}
+
+.container .main h5 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.container .main img {
+  width: 780px;
+  height: 350px;
+  object-fit: cover;
+  margin: 10px 0 20px 0;
+}
+
+.container .main p {
+  text-align: justify;
+  margin-right: 20px;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Coming Soon", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu {
+  height: 180px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu .top {
+  height: 30px;
+  background-color: rgb(27, 26, 26);
+}
+
+.menu .main-nav {
+  height: 95px;
+  display: flex;
+  border-bottom: solid salmon 1px;
+  width: 1100px;
+  margin: auto;
+}
+
+.menu .main-nav a {
+  display: inline-block;
+  margin: auto 0;
+}
+
+.menu .main-nav h1 {
+  font-size: large;
+}
+
+.menu .sub-nav {
+  width: 1100px;
+  margin: auto;
+}
+
+/* Nav Bar Style */
+nav {
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+nav li:hover {
+  background-color: #555;
+}
+
+/* Submenu Style */
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #555;
+}
+
+nav li:hover > ul {
+  display: block;
+}
+
+nav ul ul li {
+  display: block;
+  width: 100%;
+}
