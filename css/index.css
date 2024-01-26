@@ -83,4 +83,7 @@
     width: 90%;
     height: 150px;
   }
+  .sub-info {
+    display: none;
+  }
 }
