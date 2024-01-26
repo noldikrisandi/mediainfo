@@ -64,3 +64,23 @@
   text-align: justify;
   margin-right: 20px;
 }
+
+/* Tampilan HP  */
+@media screen and (max-width: 600px) {
+  h2,
+  h4 {
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container .main {
+    width: 100%;
+  }
+
+  .container .main img {
+    width: 90%;
+    height: 150px;
+  }
+}

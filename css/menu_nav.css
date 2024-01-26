@@ -74,3 +74,19 @@ nav ul ul li {
   display: block;
   width: 100%;
 }
+
+/* Tampilan HP  */
+@media screen and (max-width: 600px) {
+  h2,
+  h4 {
+    text-align: center;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  .sub-nav {
+    display: none;
+  }
+}
