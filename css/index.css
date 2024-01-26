@@ -74,6 +74,7 @@
 
   .container {
     width: 100%;
+    overflow: hidden;
   }
   .container .main {
     width: 100%;
