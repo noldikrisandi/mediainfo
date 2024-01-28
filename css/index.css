@@ -21,16 +21,21 @@
 
 /* end kelas sendiri */
 
+/* #menu-container {
+  position: relative;
+  top: -10px;
+} */
+
 .container {
   width: 1100px;
-  height: 1500px;
-  margin: 10px auto;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
 
 .container .main {
   border-right: solid salmon 1px;
   width: 800px;
+  padding-top: 160px;
 }
 
 .container .main h2 {
@@ -74,7 +79,6 @@
 
   .container {
     width: 100%;
-    overflow: hidden;
   }
   .container .main {
     width: 100%;
@@ -83,8 +87,5 @@
   .container .main img {
     width: 90%;
     height: 150px;
-  }
-  .sub-info {
-    display: none;
   }
 }

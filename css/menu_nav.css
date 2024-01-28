@@ -4,7 +4,13 @@
   font-family: "Comfortaa", sans-serif;
   font-family: "Coming Soon", cursive;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  background-color: white;
 }
 
 .menu {
@@ -36,7 +42,12 @@
 
 .menu .sub-nav {
   width: 1100px;
-  margin: auto;
+  height: 55px;
+  margin: 0 auto;
+}
+
+.menu .sub-nav nav {
+  position: static;
 }
 
 /* Nav Bar Style */
