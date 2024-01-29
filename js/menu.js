@@ -11,16 +11,16 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="sub-nav">
       <nav>
         <ul>
-          <li>Menu 1</li>
+          <li>Berita</li>
           <li>
-            Menu 2
+            Travelling
             <ul>
-              <li>Submenu 1</li>
-              <li>Submenu 2</li>
+              <li>Pantai</li>
+              <li>Gunung</li>
             </ul>
           </li>
-          <li>Menu 3</li>
-          <li>Menu 4</li>
+          <li>Teknologi</li>
+          <li>Edukasi</li>
         </ul>
       </nav>
     </div>

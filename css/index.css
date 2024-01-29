@@ -43,6 +43,10 @@
   color: black;
 }
 
+.container .main h4 {
+  font-size: 16pt;
+}
+
 .container .main h6 {
   margin: 13px 0 20px 0;
 }
