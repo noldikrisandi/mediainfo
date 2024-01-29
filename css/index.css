@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
   font-family: "Comfortaa", sans-serif;
   font-family: "Coming Soon", cursive;
   font-family: "Roboto", sans-serif;
@@ -37,30 +38,30 @@
 }
 
 .container .main {
-  border-right: solid salmon 1px;
-  width: 800px;
+  width: 100%;
+  display: flex;
 }
 
-.container .main h2 {
+.container h2 {
   margin: 20px 20px 20px 0;
   font-weight: bold;
   color: black;
 }
 
-.container .main h4 {
+.container h4 {
   font-size: 16pt;
 }
 
-.container .main h6 {
+.container h6 {
   margin: 13px 0 20px 0;
 }
 
-.container .main p i {
+.container p i {
   margin: auto 5px;
   font-size: 20px;
 }
 
-.container .main h5 {
+.container h5 {
   margin-bottom: 10px;
   margin-top: 30px;
 }
@@ -75,6 +76,27 @@
 .container .main p {
   text-align: justify;
   margin-right: 20px;
+}
+
+.container .utama {
+  width: 800px;
+}
+
+.container .sub-utama {
+  width: 300px;
+  height: 200px;
+  background-color: whitesmoke;
+  margin-top: 70px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.biodata {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(66, 66, 66);
+  margin: 30px auto;
+  border-radius: 20px;
 }
 
 /* Tampilan HP  */
