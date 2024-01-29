@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <div class="menu" id="navbar">
     <div class="top"></div>
     <div class="main-nav">
-      <a href="#" id="home-button" class="active"><h1>MediaInfo</h1></a>
+      <a href="#" id="home-button" class="active"><h1>Trend Masa Kini</h1></a>
     </div>
     <div class="sub-nav">
       <nav>
