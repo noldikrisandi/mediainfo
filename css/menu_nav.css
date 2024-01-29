@@ -100,6 +100,10 @@ nav ul ul li {
     width: 100%;
   }
 
+  .menu .sub-nav nav {
+    width: 100%;
+  }
+
   .menu .main-nav {
     width: 100%;
   }
@@ -131,7 +135,7 @@ li {
 }
 
 /* Container to center the content */
-.container {
+.container-footer {
   width: 80%;
   margin: 0 auto;
 }
@@ -211,7 +215,7 @@ li {
 
 /* Responsive styling - adjust as needed */
 @media (max-width: 768px) {
-  .container {
+  .container-footer {
     width: 100%;
   }
 

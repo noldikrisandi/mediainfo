@@ -27,4 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
   </div>
   `;
   menuContainer.appendChild(nav);
+
+  // Mematikan croll horizontal
+  // Mendapatkan elemen body
+  var bodyElement = document.body;
+
+  // Mengatur properti overflow-x ke "hidden"
+  bodyElement.style.overflowX = "hidden";
 });
