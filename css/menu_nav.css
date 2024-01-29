@@ -61,24 +61,35 @@ nav {
 nav ul {
   list-style: none;
   display: flex;
+  font-size: 15pt;
 }
 
 nav li {
   margin: 0 15px;
-  padding: 10px;
+  padding: 10px 10px 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 nav li:hover {
-  background-color: #555;
+  border-bottom: solid 2px #3498db;
 }
 
 /* Submenu Style */
 nav ul ul {
+  width: 200px;
   display: none;
   position: absolute;
-  background-color: #555;
+  background-color: white;
+  margin-top: 7px;
+  margin-left: -30px;
+  border: solid 0.5px #e3e3e3;
+  padding-bottom: 20px;
+}
+
+nav ul ul li:hover {
+  color: #3498db;
+  border: none;
 }
 
 nav li:hover > ul {
@@ -88,6 +99,8 @@ nav li:hover > ul {
 nav ul ul li {
   display: block;
   width: 100%;
+  margin-left: 20px;
+  font-size: 12pt;
 }
 
 /* Tampilan HP  */

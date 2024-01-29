@@ -8,15 +8,39 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
 <div class="sub-nav">
   <nav>
     <ul>
-      <li>Berita</li>
+      <li>
+      Berita
+      <ul>
+        <li>Politik Terbaru</li>
+        <li>Budaya Indonesia</li>
+        <li>Keindahan Sosial</li>
+        <li>Indonesia Terkini</li>
+        <li>Ekonomi Global</li>
+        <li>Ekonomi Indonesia</li>
+      </ul>  
+      </li>
       <li>
         Travelling
         <ul>
-          <li>Pantai</li>
-          <li>Gunung</li>
+          <li>Indahnya Nusantara</li>
+          <li>Jelajahi Sulawesi</li>
+          <li>Enjoy Jakarta</li>
+          <li>Pesona Pulau Jawa</li>
+          <li>Wisata Bali</li>
+          <li>Surga Papua</li>
+          <li>Menilik Kalimantan</li>
+          <li>Bilik Sumatera</li>
         </ul>
       </li>
-      <li>Teknologi</li>
+      <li>
+        Teknologi
+        <ul>
+          <li>Handphone</li>
+          <li>Laptop & PC</li>
+          <li>Penemuan Terbaru</li>
+          <li>Teknologi Terbaru Indonesia</li>
+        </ul>      
+      </li>
       <li>Edukasi</li>
     </ul>
   </nav>
