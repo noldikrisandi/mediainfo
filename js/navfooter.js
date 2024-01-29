@@ -77,7 +77,7 @@ footerElement.innerHTML = `    <footer class="site-footer">
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2024 Treand Masa Kini. Hak Cipta Dilindungi.</p>
+      <p>&copy; 2024 Trend Masa Kini. Hak Cipta Dilindungi.</p>
     </div>
   </div>
 </footer>

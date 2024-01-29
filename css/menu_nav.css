@@ -216,7 +216,8 @@ li {
 /* Responsive styling - adjust as needed */
 @media (max-width: 768px) {
   .container-footer {
-    width: 100%;
+    width: 90%;
+    text-align: center;
   }
 
   .footer-top {
