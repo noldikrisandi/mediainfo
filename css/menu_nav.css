@@ -114,7 +114,7 @@ nav ul ul li ul {
 }
 
 /* Tampilan HP  */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .menu {
     width: 100%;
   }
@@ -237,7 +237,7 @@ li {
 }
 
 /* Responsive styling - adjust as needed */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container-footer {
     width: 90%;
     text-align: center;
