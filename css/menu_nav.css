@@ -103,6 +103,16 @@ nav ul ul li {
   font-size: 12pt;
 }
 
+nav ul ul li ul {
+  display: block;
+  width: 100%;
+  margin-left: 140px;
+  margin-top: -20px;
+  font-size: 11pt;
+  display: none;
+  color: #555;
+}
+
 /* Tampilan HP  */
 @media screen and (max-width: 600px) {
   .menu {

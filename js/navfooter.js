@@ -13,7 +13,7 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
       <ul>
         <li>Politik Terbaru</li>
         <li>Budaya Indonesia</li>
-        <li>Keindahan Sosial</li>
+        <li>Sosial & Agama</li>
         <li>Indonesia Terkini</li>
         <li>Ekonomi Global</li>
         <li>Ekonomi Indonesia</li>
@@ -29,7 +29,7 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
           <li>Wisata Bali</li>
           <li>Surga Papua</li>
           <li>Menilik Kalimantan</li>
-          <li>Bilik Sumatera</li>
+          <li>Meganya Sumatera</li>
         </ul>
       </li>
       <li>
@@ -41,7 +41,25 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
           <li>Teknologi Terbaru Indonesia</li>
         </ul>      
       </li>
-      <li>Edukasi</li>
+      <li>
+      Edukasi
+      <ul>
+          <li>Konsultasi PR</li>
+          <li>Masuk PTN</li>
+          <li>Lolos TNI/POLRI</li>
+          <li>
+          Pelajar di Sekolah >
+            <ul>
+              <li>TK & SD</li>
+              <li>SMP-Sederajat</li>
+              <li>SMA-Sederajat</li>
+              <li>Matematika</li>
+              <li>Fisika, Kimia, Biologi</li>
+              <li>Ilmu Pengetahuan Sosial</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
     </ul>
   </nav>
 </div>

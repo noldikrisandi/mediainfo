@@ -93,7 +93,7 @@
 }
 
 /* Tampilan HP  */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   h2 {
     text-align: center;
     font-size: 18pt;
