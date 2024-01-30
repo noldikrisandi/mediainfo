@@ -79,6 +79,10 @@
   cursor: pointer;
 }
 
+#sub-menu-utama {
+  display: none;
+}
+
 /* Tampilan HP & Tab  */
 @media screen and (max-width: 920px) {
   #sub-utama {
@@ -90,5 +94,35 @@
 
   .sub-wisata a {
     margin-top: 0;
+  }
+
+  #sub-menu-utama {
+    display: block;
+    margin-left: 14px;
+  }
+
+  #sub-menu-utama #sub-utama1 {
+    width: 300px;
+    text-align: center;
+    text-decoration: solid;
+  }
+
+  #sub-menu-utama #sub-utama1 a {
+    text-decoration: none;
+    display: flex;
+    font-size: 11pt;
+    margin-bottom: 12px;
+  }
+
+  #sub-menu-utama #sub-utama1 a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
+
+  #sub-menu-utama #sub-utama1 a p {
+    margin: auto 0 auto 10px;
+
+    text-align: left;
   }
 }

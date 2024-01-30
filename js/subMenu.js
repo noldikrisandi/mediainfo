@@ -66,3 +66,24 @@ function openImage(imageUrl) {
 function closeImage() {
   document.getElementById("overlay").style.display = "none";
 }
+
+// Menggunakan metode innerHTML untuk menyisipkan elemen HTML
+document.getElementById("sub-menu-utama").innerHTML = `
+      <div id="sub-utama1" class="text-left">
+        <h4 class="text-left">Artikel Terbaru</h4>
+          <a href="#">
+            <img src="img/tambing.jpg" alt="Pulau Seribu" />
+            <p>Yuk lihat keindahnya Pulau Seribu, Pulau di Jakarta</p></a
+          >
+          <a href="#">
+            <img src="img/reconnect.jpg" alt="Pulau Seribu" />
+            <p>Pantai yang paling banyak dikunjungi di Pulau Bali</p></a
+          >
+          <a href="#">
+            <img src="img/airtejunpiala.jpg" alt="Pulau Seribu" />
+            <p>
+              Makanan khas Sulawesi yang paling enak menurut para Traveller
+            </p></a
+          >
+      </div>
+`;
