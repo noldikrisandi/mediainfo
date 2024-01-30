@@ -12,7 +12,7 @@ nav {
   background-color: white;
 }
 
-nav a {
+.main-nav a {
   text-decoration: none;
 }
 
@@ -90,6 +90,7 @@ nav ul ul {
 nav ul ul li:hover {
   color: #3498db;
   border: none;
+  transition: 400ms;
 }
 
 nav li:hover > ul {
@@ -162,6 +163,7 @@ li {
   background-color: rgb(66, 66, 66);
   color: #fff;
   padding: 30px 0;
+  border-radius: 2px;
 }
 
 /* Container to center the content */

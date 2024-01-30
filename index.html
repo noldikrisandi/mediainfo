@@ -31,6 +31,7 @@
     <!-- Link css -->
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/menu_nav.css" />
+    <link rel="stylesheet" href="css/sub_menu.css" />
 
     <!-- font goole -->
     <style>
@@ -67,14 +68,28 @@
           </h4>
           <h4>Berikut Destinasi Wisata Terbaik di Sulawesi Tengah</h4>
         </div>
-        <div class="sub-utama">
-          <a href="#">Hubungi Pemandu Wisata</a>
+        <div id="sub-utama" class="text-left">
+          <h4 class="text-left">Artikel Terbaru</h4>
+          <a href="#">
+            <img src="img/tambing.jpg" alt="Pulau Seribu" />
+            <p>Yuk lihat keindahnya Pulau Seribu, Pulau di Jakarta</p></a
+          >
+          <a href="#">
+            <img src="img/reconnect.jpg" alt="Pulau Seribu" />
+            <p>Pantai yang paling banyak dikunjungi di Pulau Bali</p></a
+          >
+          <a href="#">
+            <img src="img/airtejunpiala.jpg" alt="Pulau Seribu" />
+            <p>
+              Makanan khas Sulawesi yang paling enak menurut para Traveller
+            </p></a
+          >
         </div>
       </div>
 
       <div class="main">
         <div class="utama">
-          <h5>1. Pantai Bambahanu/Bambaranu</h5>
+          <h5><a href="#">1. Pantai Bambahanu/Bambaranu</a></h5>
           <img
             src="img/bambahano.jpg"
             alt="pantai bambahano pantai bambaranu"
@@ -102,13 +117,47 @@
             indah di tepi pantai
           </p>
         </div>
-        <div class="sub-utama">
-          <a href="#">Hubungi Pemandu Wisata</a>
+        <div id="sub-wisata" class="sub-wisata">
+          <a href="#" type="button" class="btn btn-outline">
+            Hubungi Pemandu Wisata <i class="fab fa-whatsapp"></i>
+          </a>
+          <div class="kumpulan-gambar">
+            <img
+              src="img/airtejunpiala.jpg"
+              alt="pantai bambahano / pantai bambaranu"
+              class="btn img-thumbnail"
+              onclick="openImage('img/bambahano.jpg')"
+            />
+            <img
+              src="img/airtejunpiala.jpg"
+              alt="pantai bambahano / pantai bambaranu"
+              class="btn img-thumbnail"
+              onclick="openImage('img/reconnect.jpg')"
+            />
+            <img
+              src="img/airtejunpiala.jpg"
+              alt="pantai bambahano / pantai bambaranu"
+              class="btn img-thumbnail"
+              onclick="openImage('img/reconnect.jpg')"
+            />
+            <img
+              src="img/airtejunpiala.jpg"
+              alt="pantai bambahano / pantai bambaranu"
+              class="btn img-thumbnail"
+              onclick="openImage('img/reconnect.jpg')"
+            />
+          </div>
+        </div>
+        <!-- Overlay untuk Gambar B -->
+        <div id="overlay" class="overlay">
+          <span class="close-btn" onclick="closeImage()">&times;</span>
+          <!-- Gambar B -->
+          <img id="modalImage" class="modal-img" />
         </div>
       </div>
       <div class="main">
         <div class="utama">
-          <h5>2. Reconnect / Pulau Buka-Buka</h5>
+          <h5><a href="#">2. Reconnect / Pulau Buka-Buka</a></h5>
           <img src="img/reconnect.jpg" alt="Reconnect Pulau Buka-Buka Ampana" />
           <p>
             Pulau ini bukan hanya sekadar tempat wisata, tapi sebuah
@@ -134,9 +183,7 @@
             brilian untuk mengunjungi tempat ini.
           </p>
         </div>
-        <div class="sub-utama">
-          <a href="#">Hubungi Pemandu Wisata</a>
-        </div>
+        <div id="sub-wisata2" class="sub-wisata"></div>
       </div>
       <div class="main">
         <div class="utama">
@@ -173,9 +220,7 @@
             akan pernah menyesal mengunjungi tempat ini.
           </p>
         </div>
-        <div class="sub-utama">
-          <a href="#">Hubungi Pemandu Wisata</a>
-        </div>
+        <div id="sub-wisata3" class="sub-wisata"></div>
       </div>
       <div class="main">
         <div class="utama">
@@ -212,12 +257,16 @@
             terbaik di Sulawesi Tengah
           </p>
         </div>
-        <div class="sub-utama">
-          <a href="#">Hubungi Pemandu Wisata</a>
-        </div>
+        <div id="sub-wisata4" class="sub-wisata"></div>
       </div>
     </div>
     <div class="biodata"></div>
+    <div class="copy-writting">
+      <p>
+        UI/UX Designer : Noldi Krisandi,S.Kom || Penyunting : Virginia Grafirat
+        Losa,S.Ilkom
+      </p>
+    </div>
 
     <!-- Footer -->
     <div id="footerContainer"></div>
@@ -225,6 +274,7 @@
     <!-- Javacript -->
     <!-- <script src="js/menu.js"></script> -->
     <script src="js/navfooter.js"></script>
+    <script src="js/subMenu.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

@@ -103,10 +103,10 @@ footerElement.innerHTML = `    <footer class="site-footer">
       <div class="footer-section">
         <h4>Link Penting</h4>
         <ul class="footer-links">
-          <li><a href="#">Beranda</a></li>
-          <li><a href="#">Layanan</a></li>
-          <li><a href="#">Mitra</a></li>
-          <li><a href="#">Kontak</a></li>
+          <li><a href="#">Berita</a></li>
+          <li><a href="#">Travelling</a></li>
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Edukasi</a></li>
         </ul>
       </div>
       <div class="footer-section">

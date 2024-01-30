@@ -5,6 +5,7 @@
   font-family: "Comfortaa", sans-serif;
   font-family: "Coming Soon", cursive;
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
 
 /* kelas sendiri */
@@ -68,28 +69,34 @@
   margin: 10px 0 20px 0;
 }
 
-.container .main p {
+.container .main .utama p {
   text-align: justify;
-  margin-right: 20px;
+  font-size: 13.5pt;
 }
 
 .container .utama {
-  width: 800px;
+  width: 780px;
+  margin-right: 20px;
 }
 
-.container .sub-utama {
-  width: 300px;
-  margin-top: 45px;
-  text-align: center;
-  text-decoration: solid;
+.container .main .utama a {
+  text-decoration: none;
+  color: #212529;
 }
 
 .biodata {
   height: 400px;
   width: 800px;
-  background-color: rgb(66, 66, 66);
+  border: solid 1px rgb(66, 66, 66);
   margin: 70px auto;
   border-radius: 20px;
+}
+
+.copy-writting {
+  text-align: right;
+  margin-right: 10px;
+  color: #212529;
+  font-size: 10pt;
 }
 
 /* Tampilan HP & Tab  */
@@ -147,5 +154,22 @@
 @media screen and (max-width: 440px) {
   .container .main img {
     height: 150px;
+  }
+
+  .copy-writting {
+    font-size: 6pt;
+  }
+
+  nav ul li {
+    font-size: 12pt;
+  }
+
+  nav ul li ul {
+    width: 155px;
+  }
+
+  nav ul li ul li {
+    font-size: 9pt;
+    margin-left: 17px;
   }
 }

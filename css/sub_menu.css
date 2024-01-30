@@ -1,0 +1,94 @@
+/* Sub Utama */
+.container #sub-utama {
+  width: 300px;
+  text-align: center;
+  text-decoration: solid;
+}
+
+.container #sub-utama a {
+  text-decoration: none;
+  display: flex;
+  font-size: 11pt;
+  margin-bottom: 12px;
+}
+
+.container #sub-utama a img {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.container #sub-utama a p {
+  margin: auto 0 auto 10px;
+
+  text-align: left;
+}
+
+/* Sub Menu Wisata */
+/* .sub-wisata {
+  border: solid 1px salmon;
+} */
+
+.sub-wisata a {
+  text-decoration: none;
+  margin-top: 45px;
+  display: inline-block;
+  font-size: 14pt;
+  color: lightseagreen;
+}
+
+.sub-wisata .kumpulan-gambar img {
+  width: 120px;
+  height: 70px;
+  transition: 250ms;
+}
+
+.sub-wisata .kumpulan-gambar img:hover {
+  scale: 1.1;
+  transition: 500ms;
+}
+
+/* Membuat tampilan gambar membesar */
+/* Gaya untuk overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Gaya untuk gambar besar */
+.modal-img {
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+/* Gaya untuk tombol close */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  font-size: 34px;
+  cursor: pointer;
+}
+
+/* Tampilan HP & Tab  */
+@media screen and (max-width: 920px) {
+  #sub-utama {
+    display: none;
+  }
+  .sub-wisata {
+    width: 100%;
+  }
+
+  .sub-wisata a {
+    margin-top: 0;
+  }
+}
