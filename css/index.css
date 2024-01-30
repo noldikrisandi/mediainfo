@@ -92,8 +92,8 @@
   border-radius: 20px;
 }
 
-/* Tampilan HP  */
-@media screen and (max-width: 800px) {
+/* Tampilan HP & Tab  */
+@media screen and (max-width: 920px) {
   h2 {
     text-align: center;
     font-size: 18pt;
@@ -116,7 +116,7 @@
   .container .main img {
     width: 100%;
     border-radius: 5px;
-    height: 150px;
+    height: 250px;
   }
 
   .container {
@@ -140,5 +140,12 @@
     width: 80%;
     height: 100px;
     margin: 20px auto;
+  }
+}
+
+/* Tampilan HP  */
+@media screen and (max-width: 440px) {
+  .container .main img {
+    height: 150px;
   }
 }
