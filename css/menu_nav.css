@@ -140,7 +140,7 @@ nav ul ul li ul {
 /* Untuk tampilan HP */
 @media screen and (max-width: 440px) {
   nav ul ul li ul {
-    margin-left: -140px;
+    margin-left: -180px;
   }
 }
 
