@@ -11,10 +11,10 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
       <li>
       Berita
       <ul>
-        <li>Politik Terbaru</li>
+        <!-- <li>Politik Terbaru</li> -->
         <li><a href="sukuSULTENG.html">Budaya Indonesia</a></li>
         <li>Sosial & Agama</li>
-        <li>Indonesia Terkini</li>
+        <!-- <li>Indonesia Terkini</li> -->
         <li>Ekonomi Global</li>
         <li>Ekonomi Indonesia</li>
       </ul>  
