@@ -8,18 +8,6 @@
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-li a {
-  text-decoration: none;
-  color: #212529;
-}
-
-li a:hover {
-  text-decoration: none;
-}
-
->>>>>>> 627e4cb (Initial commit)
 /* kelas sendiri */
 .bold {
   font-weight: bold;
@@ -33,18 +21,6 @@ li a:hover {
   display: block;
 }
 
-<<<<<<< HEAD
-=======
-.sumber {
-  margin-top: -20px;
-  margin-bottom: 10px;
-}
-
-.flex {
-  display: flex;
-}
-
->>>>>>> 627e4cb (Initial commit)
 /* end kelas sendiri */
 
 #menu-container {
@@ -59,10 +35,7 @@ li a:hover {
 
 .container .main {
   width: 100%;
-<<<<<<< HEAD
   display: flex;
-=======
->>>>>>> 627e4cb (Initial commit)
   margin-top: 5px;
 }
 
@@ -87,10 +60,6 @@ li a:hover {
 .container h5 {
   margin-bottom: 10px;
   margin-top: 10px;
-<<<<<<< HEAD
-=======
-  font-size: 14pt;
->>>>>>> 627e4cb (Initial commit)
 }
 
 .container .main img {
@@ -132,14 +101,6 @@ li a:hover {
 
 /* Tampilan HP & Tab  */
 @media screen and (max-width: 920px) {
-<<<<<<< HEAD
-=======
-  .main {
-    margin-top: 10px;
-    border: solid 1px salmon;
-  }
-
->>>>>>> 627e4cb (Initial commit)
   h2 {
     text-align: center;
     font-size: 18pt;
