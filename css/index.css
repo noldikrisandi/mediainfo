@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Coming Soon", cursive;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+<<<<<<< HEAD
+=======
+li a {
+  text-decoration: none;
+  color: #212529;
+}
+
+li a:hover {
+  text-decoration: none;
+}
+
+>>>>>>> 627e4cb (Initial commit)
+/* kelas sendiri */
+.bold {
+  font-weight: bold;
+}
+
+.abu-abu {
+  color: rgb(145, 144, 144);
+}
+
+.blok {
+  display: block;
+}
+
+<<<<<<< HEAD
+=======
+.sumber {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+>>>>>>> 627e4cb (Initial commit)
+/* end kelas sendiri */
+
+#menu-container {
+  overflow: hidden;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .main {
+  width: 100%;
+<<<<<<< HEAD
+  display: flex;
+=======
+>>>>>>> 627e4cb (Initial commit)
+  margin-top: 5px;
+}
+
+.container h2 {
+  margin: 20px 20px 20px 0;
+  font-weight: bold;
+}
+
+.container h4 {
+  font-size: 16pt;
+}
+
+.container h6 {
+  margin: 13px 0 20px 0;
+}
+
+.container p i {
+  margin: auto 5px;
+  font-size: 20px;
+}
+
+.container h5 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+<<<<<<< HEAD
+=======
+  font-size: 14pt;
+>>>>>>> 627e4cb (Initial commit)
+}
+
+.container .main img {
+  width: 780px;
+  height: 350px;
+  object-fit: cover;
+  margin: 10px 0 20px 0;
+}
+
+.container .main .utama p {
+  text-align: justify;
+  font-size: 13.5pt;
+}
+
+.container .utama {
+  width: 780px;
+  margin-right: 20px;
+}
+
+.container .main .utama a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.biodata {
+  height: 400px;
+  width: 800px;
+  border: solid 1px rgb(66, 66, 66);
+  margin: 70px auto;
+  border-radius: 20px;
+}
+
+.copy-writting {
+  text-align: right;
+  margin-right: 10px;
+  color: #212529;
+  font-size: 10pt;
+}
+
+/* Tampilan HP & Tab  */
+@media screen and (max-width: 920px) {
+<<<<<<< HEAD
+=======
+  .main {
+    margin-top: 10px;
+    border: solid 1px salmon;
+  }
+
+>>>>>>> 627e4cb (Initial commit)
+  h2 {
+    text-align: center;
+    font-size: 18pt;
+  }
+
+  .container h4 {
+    text-align: center;
+    font-size: 14pt;
+    margin-top: 15px;
+  }
+
+  .container h6 {
+    font-size: 10pt;
+  }
+
+  .container .main p {
+    margin: 0;
+  }
+
+  .container .main img {
+    width: 100%;
+    border-radius: 5px;
+    height: 250px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .container .main {
+    display: block;
+    width: 100%;
+  }
+
+  .container .utama {
+    width: 100%;
+  }
+
+  .container .sub-utama {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .biodata {
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+  }
+}
+
+/* Tampilan HP  */
+@media screen and (max-width: 440px) {
+  .container .main img {
+    height: 150px;
+  }
+
+  .copy-writting {
+    font-size: 6pt;
+  }
+
+  nav ul li {
+    font-size: 12pt;
+  }
+
+  nav ul li ul {
+    width: 155px;
+  }
+
+  nav ul li ul li {
+    font-size: 9pt;
+    margin-left: 17px;
+  }
+}
