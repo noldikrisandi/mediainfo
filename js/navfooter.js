@@ -11,8 +11,8 @@ menuElement.innerHTML = `<div class="menu" id="navbar">
       <li>
       Berita
       <ul>
-        <li><a href="sukuSULTENG.html">Politik Terbaru</a></li>
-        <li>Budaya Indonesia</li>
+        <li>Politik Terbaru</li>
+        <li><a href="sukuSULTENG.html">Budaya Indonesia</a></li>
         <li>Sosial & Agama</li>
         <li>Indonesia Terkini</li>
         <li>Ekonomi Global</li>
